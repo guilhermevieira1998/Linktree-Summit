@@ -257,6 +257,12 @@ body {
     animation: shine 1.5s infinite;
 }
 
+.cta-button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(255, 127, 80, 0.3);
+    
+}
+
 @keyframes shine {
     100% {
         transform: translateX(100%);
